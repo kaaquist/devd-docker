@@ -2,7 +2,7 @@ This is github.com/cortesi/devd inside a docker image.
 
 Default command for devd is to simply serve files found in `/static` on the container. 
 
-__Sample Usage:__
+__Sample Usage:__  
 First we _build_ the docker container:
 ```bash
 docker build . -t devd-test:latest
